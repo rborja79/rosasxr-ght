@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff4581ca9123a4bf38bb9dc32ca89489, type: 3}
+  m_Name: SimulatorDataset
+  m_EditorClassIdentifier: 
+  samples:
+  - sampleId: 0_insuficiente/prueba_1
+    photo: {fileID: 2800000, guid: 1bb245e0971fe4cbbad76e3e5df79c0a, type: 3}
+    model: {fileID: 0}
+    classId: 0_insuficiente
+    colorId: blanco
+    sizeId: pequeno
+    lengthId: 
+  - sampleId: 0_insuficiente/prueba_2
+    photo: {fileID: 2800000, guid: 9b1c9d25c6b514225a36dca5f132ee1b, type: 3}
+    model: {fileID: 0}
+    classId: 0_insuficiente
+    colorId: amarillo
+    sizeId: mediano
+    lengthId: 
+  - sampleId: 0_insuficiente/prueba_3
+    photo: {fileID: 2800000, guid: be822e8c1a12141989c57a4eabaede3d, type: 3}
+    model: {fileID: 0}
+    classId: 0_insuficiente
+    colorId: rojo
+    sizeId: grande
+    lengthId: 
+  - sampleId: 0_insuficiente/prueba_4
+    photo: {fileID: 2800000, guid: 1ccab12a7c3cf4d8da10929e5ad7e20a, type: 3}
+    model: {fileID: 0}
+    classId: 0_insuficiente
+    colorId: rosado
+    sizeId: pequeno
+    lengthId: 
+  - sampleId: 1_optima/prueba_1
+    photo: {fileID: 2800000, guid: 0073b42a381304484b13ce7704f06012, type: 3}
+    model: {fileID: 0}
+    classId: 1_optima
+    colorId: rojo
+    sizeId: pequeno
+    lengthId: 50
+  - sampleId: 1_optima/prueba_2
+    photo: {fileID: 2800000, guid: 93d55bc7ac0ee40faad6c54e2d88345b, type: 3}
+    model: {fileID: 0}
+    classId: 1_optima
+    colorId: rosado
+    sizeId: mediano
+    lengthId: 60
+  - sampleId: 1_optima/prueba_3
+    photo: {fileID: 2800000, guid: 09ca72f2b396d42e58b80770b6bbf607, type: 3}
+    model: {fileID: 0}
+    classId: 1_optima
+    colorId: blanco
+    sizeId: grande
+    lengthId: 70
+  - sampleId: 1_optima/prueba_4
+    photo: {fileID: 2800000, guid: 902967b0fa2214e7a9f82f268aeb5253, type: 3}
+    model: {fileID: 0}
+    classId: 1_optima
+    colorId: amarillo
+    sizeId: pequeno
+    lengthId: 80
+  - sampleId: 2_excesiva/prueba_1
+    photo: {fileID: 2800000, guid: abb4096362e784ce18daa42cc2313310, type: 3}
+    model: {fileID: 0}
+    classId: 2_excesiva
+    colorId: blanco
+    sizeId: pequeno
+    lengthId: 
+  - sampleId: 2_excesiva/prueba_2
+    photo: {fileID: 2800000, guid: e91e40c02422c4b80a06befc9b43ec9b, type: 3}
+    model: {fileID: 0}
+    classId: 2_excesiva
+    colorId: amarillo
+    sizeId: mediano
+    lengthId: 
+  - sampleId: 2_excesiva/prueba_3
+    photo: {fileID: 2800000, guid: ee9577bb02032446ba0e32a39a5663c2, type: 3}
+    model: {fileID: 0}
+    classId: 2_excesiva
+    colorId: rojo
+    sizeId: grande
+    lengthId: 
+  - sampleId: 2_excesiva/prueba_4
+    photo: {fileID: 2800000, guid: c4a62646c77c14ce18f027aa2f4ff2d6, type: 3}
+    model: {fileID: 0}
+    classId: 2_excesiva
+    colorId: rosado
+    sizeId: pequeno
+    lengthId: 
+  - sampleId: 3D/rosa_1_triangulo_inmaduro
+    photo: {fileID: 0}
+    model: {fileID: 919132149155446097, guid: 8ed8b7edcf0ca4bea957b979d213a7d6, type: 3}
+    classId: 0_insuficiente
+    colorId: rojo
+    sizeId: 
+    lengthId: 
+  - sampleId: 3D/rosa_2_cuadrado_punto_corte
+    photo: {fileID: 0}
+    model: {fileID: 919132149155446097, guid: 8cafab205ea9b491b89c161bbaeef9e5, type: 3}
+    classId: 1_optima
+    colorId: rojo
+    sizeId: 
+    lengthId: 50
+  - sampleId: 3D/rosa_3_copa_pasado
+    photo: {fileID: 0}
+    model: {fileID: 919132149155446097, guid: 7dcb7e803acc84939b63466ecb496003, type: 3}
+    classId: 2_excesiva
+    colorId: rojo
+    sizeId: 
+    lengthId: 

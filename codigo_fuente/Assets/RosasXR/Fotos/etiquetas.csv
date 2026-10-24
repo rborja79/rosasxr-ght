@@ -1,0 +1,13 @@
+archivo;color;tamano;largo
+0_insuficiente/prueba_1.png;blanco;pequeno;
+0_insuficiente/prueba_2.png;amarillo;mediano;
+0_insuficiente/prueba_3.png;rojo;grande;
+0_insuficiente/prueba_4.png;rosado;pequeno;
+1_optima/prueba_1.png;rojo;pequeno;50
+1_optima/prueba_2.png;rosado;mediano;60
+1_optima/prueba_3.png;blanco;grande;70
+1_optima/prueba_4.png;amarillo;pequeno;80
+2_excesiva/prueba_1.png;blanco;pequeno;
+2_excesiva/prueba_2.png;amarillo;mediano;
+2_excesiva/prueba_3.png;rojo;grande;
+2_excesiva/prueba_4.png;rosado;pequeno;

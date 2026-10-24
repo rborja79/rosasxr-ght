@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5bc293ecfdbc47a88327a5630239ba2, type: 3}
+  m_Name: BrandTheme
+  m_EditorClassIdentifier: 
+  companyName: GHT
+  logo: {fileID: 21300000, guid: 413ac9df7e78f4ec89dd34c7a2eb5027, type: 3}
+  primary: {r: 0, g: 0.56078434, b: 0.34901962, a: 1}
+  secondary: {r: 0.3372549, g: 0.6, b: 0.4, a: 1}
+  panelBackground: {r: 0, g: 0.1882353, b: 0.105882354, a: 0.96}
+  neutral: {r: 0.015686275, g: 0.32156864, b: 0.19215687, a: 1}
+  light: {r: 0.9490196, g: 0.9490196, b: 0.9411765, a: 1}
+  correct: {r: 0.10980392, g: 0.6392157, b: 0.41568628, a: 1}
+  wrong: {r: 0.8980392, g: 0.09803922, b: 0.09803922, a: 1}

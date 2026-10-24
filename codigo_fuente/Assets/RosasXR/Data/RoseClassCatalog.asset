@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf9e1859e59b54a218c53c75a1c04b3f, type: 3}
+  m_Name: RoseClassCatalog
+  m_EditorClassIdentifier: 
+  classes:
+  - id: 0_insuficiente
+    displayName: Insuficiente
+    modelClassIndex: 0
+    shouldCut: 0
+    color: {r: 0.62, g: 0.8, b: 0.55, a: 1}
+    explanation: "[Validar con experto] Bot\xF3n con silueta mayormente triangular
+      o cerrada. Todav\xEDa no est\xE1 en punto: se deja en la planta."
+    recommendation: ESPERAR
+  - id: 1_optima
+    displayName: "\xD3ptima"
+    modelClassIndex: 1
+    shouldCut: 1
+    color: {r: 0.98, g: 0.82, b: 0.45, a: 1}
+    explanation: "[Validar con experto] Copa moderadamente abierta: es el punto comercial
+      para exportaci\xF3n a Estados Unidos."
+    recommendation: 'EN PUNTO: verificar color y localizar corte'
+  - id: 2_excesiva
+    displayName: Excesiva
+    modelClassIndex: 2
+    shouldCut: 0
+    color: {r: 0.95, g: 0.6, b: 0.5, a: 1}
+    explanation: "[Validar con experto] P\xE9talos demasiado desplegados para el
+      objetivo de exportaci\xF3n."
+    recommendation: "NO CORTAR COMO \xD3PTIMA"

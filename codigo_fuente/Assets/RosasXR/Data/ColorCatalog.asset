@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60ea284bedbd147ea8f87b3cac67dd02, type: 3}
+  m_Name: ColorCatalog
+  m_EditorClassIdentifier: 
+  attributeName: Color
+  question: "\xBFDe qu\xE9 color es esta rosa?"
+  options:
+  - id: rojo
+    displayName: Rojo
+    color: {r: 0.8, g: 0.15, b: 0.18, a: 1}
+    explanation: "[Ajustar] Rojo intenso en todo el bot\xF3n, sin tonos rosados en
+      el borde de los p\xE9talos."
+  - id: rosado
+    displayName: Rosado
+    color: {r: 0.96, g: 0.62, b: 0.72, a: 1}
+    explanation: "[Ajustar] Tono rosa uniforme; m\xE1s claro que el rojo y sin vetas
+      de otro color."
+  - id: blanco
+    displayName: Blanco / crema
+    color: {r: 0.96, g: 0.95, b: 0.9, a: 1}
+    explanation: "[Ajustar] P\xE9talos blancos o crema; el centro puede ser levemente
+      m\xE1s c\xE1lido."
+  - id: amarillo
+    displayName: Amarillo
+    color: {r: 0.98, g: 0.86, b: 0.3, a: 1}
+    explanation: "[Ajustar] Amarillo en todo el bot\xF3n."
+  - id: naranja
+    displayName: Naranja / durazno
+    color: {r: 0.97, g: 0.62, b: 0.35, a: 1}
+    explanation: "[Ajustar] Tonos naranja o durazno; no confundir con amarillo bajo
+      luz c\xE1lida."
+  - id: bicolor
+    displayName: Bicolor
+    color: {r: 0.75, g: 0.62, b: 0.85, a: 1}
+    explanation: '[Ajustar] Dos colores claramente distintos (borde y centro, o vetas).'

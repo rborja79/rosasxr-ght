@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60ea284bedbd147ea8f87b3cac67dd02, type: 3}
+  m_Name: SizeCatalog
+  m_EditorClassIdentifier: 
+  attributeName: "Tama\xF1o del bot\xF3n"
+  question: "\xBFDe qu\xE9 tama\xF1o es el bot\xF3n?"
+  options:
+  - id: pequeno
+    displayName: "Peque\xF1o"
+    color: {r: 0.8, g: 0.88, b: 0.8, a: 1}
+    explanation: "[Ajustar con medida real] Bot\xF3n angosto; comp\xE1ralo con el
+      ancho de la mano o una referencia fija."
+  - id: mediano
+    displayName: Mediano
+    color: {r: 0.62, g: 0.8, b: 0.66, a: 1}
+    explanation: "[Ajustar con medida real] Tama\xF1o est\xE1ndar de la variedad."
+  - id: grande
+    displayName: Grande
+    color: {r: 0.44, g: 0.68, b: 0.52, a: 1}
+    explanation: "[Ajustar con medida real] Bot\xF3n ancho y largo; suele ir a los
+      grados m\xE1s altos."
